@@ -1,0 +1,11 @@
+
+.scroll-line {
+	background: linear-gradient(to right, #ADEFD1FF, #E69A8DFF);
+	top: 0;
+	left: 0;
+	height: 5px;
+	border-radius: 50px;
+	position: fixed;
+	transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+	z-index: 99;
+}

@@ -1,17 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="shortcut icon" href="./assets/imags/" type="image/x-icon">
-    <title>Shivsigma Infotech</title>
+    <link rel="stylesheet" href="assets/css/media.css">
+    <link rel="stylesheet" href="assets/css/pre-loader.css">
+    <link rel="shortcut icon" href="./assets/imags/qt=q_95.png" type="image/x-icon">
+    <title>Shivsigma</title>
 </head>
+
 <body>
 
+    <div class="scroll-line"></div>
+
     <div id="preloader"></div>
-    
+
+    <nav class="nav" id="NavBar">
+        <div class="nav-main" id="myDIV">
+            <div class="logo">Shiv<span>sigma</span></div>
+            <ul class="nav-links">
+                <a href="#banner"><li class="nav-link active">Home</li></a>
+                <a href="#oes"><li class="nav-link">Our Team</li></a>
+                <a href="#"><li class="nav-link">Services</li></a>
+                <a href="#"><li class="nav-link">Blog</li></a>
+            </ul>
+        </div>
+
+        <div class="cta">
+            <a href="mailto:hite.sh10338@gmail.com" class="btn btn-secondary">Start Project</a>
+        </div>
+    </nav>
+
+    <div>
+        <section class="banner" id="banner">
+            <div>
+                <h2>STILL, YOU WANT TO GO BEYONG?</h2>
+                <h3>
+                    A Project with the most advanced bespoke software solution provider. your idea becomes a reality.
+                </h3>
+            </div>
+            <img src="./assets/imags/66-666819_website-design-background-creative-background-image-for-website.jpg" alt="">
+        </section>
+        <section class="OES" id="oes">
+            <h2>OUR EXPERT SERVICES</h2>
+            <h3>
+                Our customers are at the heart of our organization.
+            </h3>
+            <h3>
+                Our services include Web application development, Mobile application development, UI/UX, Branding, Digital
+                Marketing, Search Engine Optimization (SEO), Social Media Marketing (SMM), IOT, Kiosk application
+                development and Hardware integration.
+            </h3>
+        </section>
+    </div>
+
+    <div class="Ply"></div>
+
+
+    <button class="mass" id="myBtn">
+        <img class="comm" src="assets/imags/comm.png" alt="">
+    </button>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <div id="header" style="background: blue;">
+                <span class="close">&times;</span>
+                <h1 style="color: white;">Shivsigma</h1>
+            </div>
+            <div class="question">
+                <span class="que-tit">Name*</span>
+                <input class="que" type="text" placeholder="UserName*" required />
+                <span class="que-tit">E-mail*</span>
+                <input class="que" type="text" placeholder="E-mail*" required />
+                <span class="que-tit-ta">How can we help*</span>
+                <textarea class="que-text" placeholder="How can we help*" name="" id=""></textarea>
+                <button class="que-but">Send</button>
+            </div>
+        </div>
+
+    </div>
+
     <script src="assets/js/script.js"></script>
+    <script src="assets/js/popup.js"></script>
+    <script src="assets/jquery/active.js"></script>
 </body>
+
 </html>
