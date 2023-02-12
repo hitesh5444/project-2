@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Ply {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.box {
+    height: 28rem;
+    width: 75rem;
+    margin-top: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.401);
+    box-shadow: 1px 3px 10px black;
+    border-radius: 10px;
+    display: none
+}
+
+.fr {
+    background: linear-gradient(to right, rgb(0, 225, 255), rgb(0, 115, 255));
+}
+
+.se {
+    background: linear-gradient(to right, #76C893, #52B69A);
+}
+
+.th {
+    background: linear-gradient(to right, #98C1D9, #3D5A80);
+}
+
+.fo {
+    background: linear-gradient(to right, #F18A85, #24788F);
+}
+
+.fi {
+    background: linear-gradient(to right, #4D607B, #9D3E4E);
+}
+
+.sx {
+    background: linear-gradient(to right, #1E1828, #FF8C64);
+}
+
+.box-tit {
+    height: 277px;
+    width: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.401);
+    background: rgba(204, 204, 204, 0.638);
+    border-radius: 10px;
+    margin-left: 31px;
+    margin-top: 50px;
+    cursor: pointer;
+    box-shadow: 1px 3px 10px black;
+}
+
+.up {
+    background: rgba(255, 255, 255, 0.638);
+    border: 1px solid rgba(0, 0, 0, 0.401);
+    border-top: none;
+    height: 200px;
+    width: 300px;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.box-img {
+    height: 150px;
+    width: 150px;
+}
+
+.tit {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-family: helvetica;
+    text-shadow:
+        0 1px 0 #000000,
+        0 2px 0 #000000,
+        0 3px 0 #000000;
+    margin-left: 4.5rem;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.dis-box {
+    border: 1px solid rgba(0, 0, 0, 0.401);
+    background: rgba(255, 255, 255, 0.638);
+    border-radius: 10px;
+    height: 350px;
+    width: 687px;
+    margin-left: 27rem;
+    margin-top: -11rem;
+    padding: 20px 20px;
+}
+
+.read {
+    border: none;
+    padding: 10px 30px;
+    background: rgba(255, 255, 255, 0.564);
+    margin-left: 17rem;
+    margin-top: -3rem;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.img-box {
+    height: 40px;
+    width: 40px;
+    margin-left: 3px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.401);
+}
+
+.box-tit-img {
+    height: 25px;
+    width: 25px;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px 20px;
+}
+
+.title-line {
+    background: black;
+    width: 88%;
+    height: 4px;
+    margin-left: 12rem;
+    margin-top: -2rem;
+}
